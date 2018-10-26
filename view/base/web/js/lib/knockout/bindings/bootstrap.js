@@ -5,6 +5,5 @@ define(['underscore'], function (_) {
         return _.extend(bindings, {
             test: require(['lskobindings/example'])
         });
-        return bindings;
     };
 });
