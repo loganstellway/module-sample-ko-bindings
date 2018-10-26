@@ -1,0 +1,16 @@
+{
+    "name": "loganstellway/module-sample-ko-bindings",
+    "description": "Example of how to apply your own KnockOut bindings to the Magento 2 implementation.",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "LoganStellway\\SampleKoBindings\\": ""
+        }
+    },
+    "require": {
+        "magento/framework": "^100.1.0|101.0.*"
+    }
+}
